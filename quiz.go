@@ -29,7 +29,7 @@ func main() {
 	fmt.Scan(&answer)
 
 	if answer == "Intel" || answer == "intel" {
-		fmt.Println("Correct!")
+		fmt.Printf("Correct! %v", name)
 		score++
 	} else {
 		fmt.Println("Incorrect, Intel is better")
@@ -40,7 +40,7 @@ func main() {
 	fmt.Scan(&cores)
 
 	if cores == 12 {
-		fmt.Println("Correct!")
+		fmt.Printf("Correct! %v", name)
 		score++
 	} else {
 		fmt.Println("Incorrect, it has 12 cores")
