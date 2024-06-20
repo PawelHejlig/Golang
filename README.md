@@ -1,5 +1,5 @@
 
-This will start the quiz game, and you can answer the questions by typing the number of the answer you choose.
+This will start my Golang learning from scratch
 
 ## Dependencies
 
@@ -9,9 +9,9 @@ This project does not have any external dependencies. It uses only the standard 
 
 The project is organized as follows:
 
-* `main.go`: The main entry point of the program. This file contains the `main` function and the main game loop.
-* `questions.go`: This file contains the `Question` struct and a slice of `Question` objects that define the questions and answers for the quiz.
-* `utils.go`: This file contains utility functions that are used by the main program, such as a function to clear the console and a function to get user input.
+* `quiz.go`: The entry point program. This file contains the code for quiz game.
+* `xxxxxxx.go`: This file contains the `xxxxxx` struct and a slice of xxxxxx` objects that define the questions and answers for the quiz.
+* `xxxxxx.go`: This file is future use
 
 ## Contributing
 
