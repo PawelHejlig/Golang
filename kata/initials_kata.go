@@ -5,9 +5,6 @@ import (
 	s "strings"
 )
 
-func main() {
-}
-
 func AbbrevName(name string) string {
 	words := s.Fields(name)
 	fmt.Println(words)
