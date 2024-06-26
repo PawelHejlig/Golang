@@ -6,19 +6,20 @@ import (
 )
 
 func main() {
-	var name string
-	name = "Sam Harris"
+}
+
+func AbbrevName(name string) string {
 	words := s.Fields(name)
+	fmt.Println(words)
 	fl := make([]string, len(words))
 
 	for i, word := range words {
 		if i == len(words)-1 {
-			fl[i] = string(word[0])
+			fl[i] = s.ToUpper(string(word[0]))
 		} else {
-			fl[i] = string(word[0]) + "."
+			fl[i] = s.ToUpper(string(word[0])) + "."
 		}
-		fmt.Println(fl)
-
-		fmt.Println(s.Join(fl, " "))
 	}
+	fmt.Println(s.Join(fl, ""))
+	return s.Join(fl, "")
 }
