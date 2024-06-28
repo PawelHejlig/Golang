@@ -6,7 +6,8 @@ import (
 )
 
 func NoSpace(word string) string {
-	//words := s.Fields(word)
 	//fmt.Println(s.ReplaceAll(word, " ", ""))
 	return s.ReplaceAll(word, " ", "")
+	//or
+	//return s.Replace(word, " ", "", -1)
 }
