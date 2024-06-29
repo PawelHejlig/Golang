@@ -14,7 +14,7 @@ func countSheep(num int) string {
 	return result
 }
 
-func main() {
+/*func main() {
 	countSheep(2)
 }
 
@@ -23,9 +23,9 @@ func countSheep(num int) string {
 	var sb strings.Builder
 
 	for count := 1; count <= num; count++ {
-		  fmt.Fprintf(&sb, "%d sheep...", count)
+		fmt.Fprintf(&sb, "%d sheep...", count)
 	}
 
 	return sb.String()
-  }
+}
 */
