@@ -12,8 +12,8 @@ func StringToArray(str string) []string {
 	return words
 }
 
-func main() {
-	StringToArray("John Dou")
-}
+//func main() {
+//	StringToArray("John Dou")
+//}
 
 // return strings.Fields(str)
