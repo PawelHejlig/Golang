@@ -17,7 +17,3 @@ func Solution(word string) string {
 	return string(runes)
 
 }
-
-func main() {
-	Solution("world")
-}
