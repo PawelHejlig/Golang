@@ -29,7 +29,3 @@ func ExpressionMatter(a int, b int, c int) int {
 	fmt.Println(max)
 	return max
 }
-
-func main() {
-	ExpressionMatter(1, 2, 3)
-}
