@@ -18,9 +18,9 @@ func PositiveSum(numbers []int) int {
 	return sum
 }
 
-func main() {
-	PositiveSum([]int{1, -2, 3, 4, 5})
-}
+//func main() {
+//	PositiveSum([]int{1, -2, 3, 4, 5})
+//}
 
 //better option
 //  for _, num := range numbers {
