@@ -16,11 +16,11 @@ func PowersOfTwo(n int) []uint64 {
 	return result
 }
 
-func main() {
-	n := 1
-	powers := PowersOfTwo(n)
-	fmt.Println(powers)
-}
+//func main() {
+//	n := 1
+//	powers := PowersOfTwo(n)
+//	fmt.Println(powers)
+//}
 
 //func PowersOfTwo(n int) (powers []uint64) {
 //	for i := 0; i <= n; i++ {
