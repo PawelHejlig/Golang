@@ -21,6 +21,6 @@ func ToAlternatingCase(str string) string {
 	return string(result)
 }
 
-func main() {
-	ToAlternatingCase("HEllo world")
-}
+//func main() {
+//	ToAlternatingCase("HEllo world")
+//}
