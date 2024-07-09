@@ -13,9 +13,9 @@ func FindMultiples(integer, limit int) (result []int) {
 	return nil
 }
 
-func main() {
-	FindMultiples(5, 7)
-}
+//func main() {
+//	FindMultiples(5, 7)
+//}
 
 //better option
 //  func FindMultiples(integer, limit int) (res[]int) {
